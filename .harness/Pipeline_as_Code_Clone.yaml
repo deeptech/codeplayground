@@ -1,4 +1,6 @@
 pipeline:
+  name: Pipeline_as_Code
+  identifier: Pipeline_as_Code_Clone
   projectIdentifier: default_project
   orgIdentifier: default
   tags: {}
@@ -44,5 +46,3 @@ pipeline:
                           - Unknown
                         action:
                           type: MarkAsSuccess
-  identifier: Pipeline_as_Code_Clone
-  name: Pipeline_as_Code - Clone
